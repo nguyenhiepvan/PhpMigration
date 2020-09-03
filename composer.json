@@ -1,0 +1,22 @@
+{
+    "name": "hiepnguyen/php-migration",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nguyễn Văn Hiệp",
+            "email": "nguyenhiepvan.bka@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+      		"PhpMigration\\": "src"
+    	}
+    },
+    "require": {
+        "slim/slim": "^4.5",
+        "illuminate/container": "^7.27",
+        "illuminate/database": "^7.27",
+        "robmorgan/phinx": "^0.12.4"
+    }
+}
